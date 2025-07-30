@@ -21,27 +21,17 @@
   
   <!-- Initialize Google Maps loading after all scripts are loaded -->
   <script>
-    // Wait for config to be loaded, then initialize Google Maps
-    document.addEventListener('DOMContentLoaded', function() {
-      console.log('DOM loaded, checking config...');
-      
-      if (typeof CONFIG === 'undefined') {
-        console.error('CONFIG not loaded!');
-        alert('Error: Configuration not loaded');
-        return;
-      }
-      
-      if (typeof loadGoogleMapsScript === 'function') {
-        console.log('Starting Google Maps...');
-        loadGoogleMapsScript().catch(error => {
-          console.error('Failed to load Google Maps:', error);
-          alert('Failed to load Google Maps: ' + error.message);
-        });
-      } else {
-        console.error('loadGoogleMapsScript function not found!');
-        alert('Error: Google Maps loading function not available');
-      }
-    });
+    // Ensure Google Maps loads properly
+    if (typeof loadGoogleMapsScript === 'function') {
+      loadGoogleMapsScript();
+    } else {
+      // Fallback: load Google Maps directly if config.js doesn't load properly
+      const script = document.createElement("script");
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDwvCx7OV3pOLcwfW4Few3bKddgLmuLBhA&callback=initMap&libraries=geometry`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    }
   </script>
 </body>
 </html>
