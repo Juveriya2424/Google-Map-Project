@@ -1,4 +1,6 @@
 
+
+
 let crimeData = {}; // Store crime data globally
 let currentCity = 'london'; // Default city
 
