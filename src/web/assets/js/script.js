@@ -201,8 +201,8 @@ function initMap() {
 
       // Initialize colorblind accessibility AFTER map is loaded
       setTimeout(() => {
-        if (window.ColorblindAccessibility) {
-          window.ColorblindAccessibility.initialize(map);
+        if (window.VisualInclusivity) {
+          window.VisualInclusivity.initialize(map);
         }
       }, 100);
 
@@ -486,11 +486,11 @@ function showDashboard(boroughData) {
 
 // Helper functions
 function getSafetyColor(score) {
-  // Check if colorblind mode is active and use appropriate palette
-  const isColorblindMode = window.ColorblindAccessibility && window.ColorblindAccessibility.isColorblindModeActive();
+  // Check if enhanced visibility mode is active and use appropriate palette
+  const isEnhancedVisibilityMode = window.VisualInclusivity && window.VisualInclusivity.isVisualInclusiveModeActive();
   
-  if (isColorblindMode) {
-    // Colorblind-friendly blue-orange palette
+  if (isEnhancedVisibilityMode) {
+    // Enhanced visibility palette using blue-orange contrast
     if (score <= 3) return '#08306b'; // Dark blue
     if (score <= 5) return '#2171b5'; // Medium blue
     if (score <= 7) return '#fd8d3c'; // Light orange
@@ -605,11 +605,11 @@ function formatCrimeType(type) {
 
 
 function getCrimeTypeColor(type) {
-  // Check if colorblind mode is active
-  const isColorblindMode = window.ColorblindAccessibility && window.ColorblindAccessibility.isColorblindModeActive();
+  // Check if enhanced visibility mode is active
+  const isEnhancedVisibilityMode = window.VisualInclusivity && window.VisualInclusivity.isVisualInclusiveModeActive();
   
-  if (isColorblindMode) {
-    // Colorblind-friendly colors using blue-orange spectrum
+  if (isEnhancedVisibilityMode) {
+    // Enhanced visibility colors using blue-orange spectrum
     const colors = {
       'violence': '#7f2704', // Dark orange (most serious)
       'assault': '#7f2704',  // Dark orange (most serious)

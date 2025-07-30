@@ -99,8 +99,8 @@
         src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>
     
-    <!-- Load colorblind accessibility module -->
-    <script src="colorblind-accessibility.js"></script>
+    <!-- Load visual inclusivity module -->
+    <script src="visual-inclusivity.js"></script>
     
     <!-- Main NYC map script -->
     <script>
@@ -226,7 +226,7 @@
                         crimeData[borough.name.toUpperCase()] = borough;
                     });
                     
-                    // Make crime data globally accessible for colorblind module
+                    // Make crime data globally accessible for visual inclusivity module
                     window.crimeData = crimeData;
 
                     // 2. Then load and display the GeoJSON
@@ -261,15 +261,15 @@
                     // Initial map styling
                     updateMapStyle(currentPalette);
 
-                    // Make the update function globally accessible for colorblind toggle
+                    // Make the update function globally accessible for enhanced visibility toggle
                     window.updateMapColorsFromToggle = (newPalette) => {
                         updateMapStyle(newPalette);
                     };
 
-                    // Initialize colorblind accessibility AFTER map is loaded
+                    // Initialize visual inclusivity AFTER map is loaded
                     setTimeout(() => {
-                        if (window.ColorblindAccessibility) {
-                            window.ColorblindAccessibility.initialize(map);
+                        if (window.VisualInclusivity) {
+                            window.VisualInclusivity.initialize(map);
                         }
                     }, 100);
 
@@ -370,11 +370,11 @@
 
         // Helper functions for dynamic coloring
         function getSafetyColor(score) {
-            // Check if colorblind mode is active and use appropriate palette
-            const isColorblindMode = window.ColorblindAccessibility && window.ColorblindAccessibility.isColorblindModeActive();
-            
-            if (isColorblindMode) {
-                // Colorblind-friendly blue-orange palette
+            // Check if enhanced visibility mode is active and use appropriate palette
+            const isEnhancedVisibilityMode = window.VisualInclusivity && window.VisualInclusivity.isVisualInclusiveModeActive();
+
+            if (isEnhancedVisibilityMode) {
+                // Enhanced visibility palette using blue-orange contrast
                 if (score <= 3) return '#08306b'; // Dark blue
                 if (score <= 5) return '#2171b5'; // Medium blue
                 if (score <= 7) return '#fd8d3c'; // Light orange
@@ -848,8 +848,8 @@
         }
 
         function getCrimeTypeColor(type) {
-            // Check if colorblind mode is active
-            const isColorblindMode = window.ColorblindAccessibility && window.ColorblindAccessibility.isColorblindModeActive();
+            // Check if enhanced visibility mode is active
+            const isEnhancedVisibilityMode = window.VisualInclusivity && window.VisualInclusivity.isVisualInclusiveModeActive();
             
             if (isColorblindMode) {
                 // Colorblind-friendly colors using blue-orange spectrum
