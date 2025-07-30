@@ -8,7 +8,6 @@
     html,body,#map{height:100%;margin:0}
     .label-halo { text-shadow: 0 0 3px #ffffff; }
   </style>
-
 </head>
 <body>
   <div id="map"></div>
@@ -20,5 +19,19 @@
   <script src="visual-inclusivity.js"></script>
   <script src="script.js"></script>
   
+  <!-- Initialize Google Maps loading after all scripts are loaded -->
+  <script>
+    // Ensure Google Maps loads properly
+    if (typeof loadGoogleMapsScript === 'function') {
+      loadGoogleMapsScript();
+    } else {
+      // Fallback: load Google Maps directly if config.js doesn't load properly
+      const script = document.createElement("script");
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDwvCx7OV3pOLcwfW4Few3bKddgLmuLBhA&callback=initMap&libraries=geometry`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    }
+  </script>
 </body>
 </html>
