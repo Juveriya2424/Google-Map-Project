@@ -1,0 +1,5 @@
+# This file ensures the directory is tracked by git
+# Processed London data files will be generated here:
+# - london_crime_processed.csv
+# - london_analysis.json
+# - london_crime_map.geojson

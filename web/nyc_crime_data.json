@@ -1,0 +1,1649 @@
+{
+  "city": "New York City",
+  "lastUpdated": "2025-07-29T15:08:30.117356",
+  "totalBoroughs": 6,
+  "boroughs": [
+    {
+      "name": "(null)",
+      "score": 1,
+      "totalCrimes": 181,
+      "crimeTypes": {
+        "THEFT": 179,
+        "ROBBERY": 1,
+        "OTHER": 1
+      },
+      "precincts": [
+        {
+          "name": "Precinct_5",
+          "totalCrimes": 4,
+          "crimeTypes": {
+            "THEFT": 4
+          }
+        },
+        {
+          "name": "Precinct_43",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "ROBBERY": 1
+          }
+        },
+        {
+          "name": "Precinct_13",
+          "totalCrimes": 10,
+          "crimeTypes": {
+            "THEFT": 10
+          }
+        },
+        {
+          "name": "Precinct_19",
+          "totalCrimes": 20,
+          "crimeTypes": {
+            "THEFT": 20
+          }
+        },
+        {
+          "name": "Precinct_18",
+          "totalCrimes": 12,
+          "crimeTypes": {
+            "THEFT": 12
+          }
+        },
+        {
+          "name": "Precinct_9",
+          "totalCrimes": 10,
+          "crimeTypes": {
+            "THEFT": 10
+          }
+        },
+        {
+          "name": "Precinct_34",
+          "totalCrimes": 10,
+          "crimeTypes": {
+            "THEFT": 10
+          }
+        },
+        {
+          "name": "Precinct_33",
+          "totalCrimes": 2,
+          "crimeTypes": {
+            "THEFT": 2
+          }
+        },
+        {
+          "name": "Precinct_24",
+          "totalCrimes": 19,
+          "crimeTypes": {
+            "THEFT": 19
+          }
+        },
+        {
+          "name": "Precinct_6",
+          "totalCrimes": 8,
+          "crimeTypes": {
+            "THEFT": 8
+          }
+        },
+        {
+          "name": "Precinct_23",
+          "totalCrimes": 2,
+          "crimeTypes": {
+            "THEFT": 2
+          }
+        },
+        {
+          "name": "Precinct_1",
+          "totalCrimes": 12,
+          "crimeTypes": {
+            "THEFT": 12
+          }
+        },
+        {
+          "name": "Precinct_30",
+          "totalCrimes": 12,
+          "crimeTypes": {
+            "THEFT": 12
+          }
+        },
+        {
+          "name": "Precinct_14",
+          "totalCrimes": 7,
+          "crimeTypes": {
+            "THEFT": 7
+          }
+        },
+        {
+          "name": "Precinct_7",
+          "totalCrimes": 5,
+          "crimeTypes": {
+            "THEFT": 5
+          }
+        },
+        {
+          "name": "Precinct_10",
+          "totalCrimes": 6,
+          "crimeTypes": {
+            "THEFT": 6
+          }
+        },
+        {
+          "name": "Precinct_17",
+          "totalCrimes": 4,
+          "crimeTypes": {
+            "THEFT": 4
+          }
+        },
+        {
+          "name": "Precinct_26",
+          "totalCrimes": 2,
+          "crimeTypes": {
+            "THEFT": 2
+          }
+        },
+        {
+          "name": "Precinct_20",
+          "totalCrimes": 14,
+          "crimeTypes": {
+            "THEFT": 14
+          }
+        },
+        {
+          "name": "Precinct_32",
+          "totalCrimes": 5,
+          "crimeTypes": {
+            "THEFT": 5
+          }
+        },
+        {
+          "name": "Precinct_25",
+          "totalCrimes": 5,
+          "crimeTypes": {
+            "THEFT": 5
+          }
+        },
+        {
+          "name": "Precinct_28",
+          "totalCrimes": 5,
+          "crimeTypes": {
+            "THEFT": 5
+          }
+        },
+        {
+          "name": "Precinct_90",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_109",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "OTHER": 1
+          }
+        },
+        {
+          "name": "Precinct_22",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_66",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_83",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_75",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BRONX",
+      "score": 6,
+      "totalCrimes": 23152,
+      "crimeTypes": {
+        "OTHER": 8754,
+        "VIOLENCE": 4801,
+        "SEXUAL_OFFENCES": 408,
+        "THEFT": 4553,
+        "ROBBERY": 936,
+        "CRIMINAL_DAMAGE": 1543,
+        "DRUG_OFFENCES": 718,
+        "TRAFFIC_OFFENCES": 165,
+        "VEHICLE_THEFT": 823,
+        "BURGLARY": 451
+      },
+      "precincts": [
+        {
+          "name": "Precinct_43",
+          "totalCrimes": 2194,
+          "crimeTypes": {
+            "OTHER": 789,
+            "SEXUAL_OFFENCES": 36,
+            "VIOLENCE": 438,
+            "DRUG_OFFENCES": 29,
+            "THEFT": 507,
+            "ROBBERY": 97,
+            "CRIMINAL_DAMAGE": 148,
+            "VEHICLE_THEFT": 101,
+            "BURGLARY": 41,
+            "TRAFFIC_OFFENCES": 8
+          }
+        },
+        {
+          "name": "Precinct_47",
+          "totalCrimes": 2375,
+          "crimeTypes": {
+            "VIOLENCE": 568,
+            "OTHER": 851,
+            "THEFT": 391,
+            "SEXUAL_OFFENCES": 56,
+            "CRIMINAL_DAMAGE": 224,
+            "ROBBERY": 89,
+            "BURGLARY": 45,
+            "TRAFFIC_OFFENCES": 18,
+            "VEHICLE_THEFT": 109,
+            "DRUG_OFFENCES": 24
+          }
+        },
+        {
+          "name": "Precinct_49",
+          "totalCrimes": 1619,
+          "crimeTypes": {
+            "VIOLENCE": 325,
+            "OTHER": 481,
+            "THEFT": 453,
+            "TRAFFIC_OFFENCES": 18,
+            "CRIMINAL_DAMAGE": 130,
+            "VEHICLE_THEFT": 93,
+            "BURGLARY": 30,
+            "SEXUAL_OFFENCES": 26,
+            "ROBBERY": 43,
+            "DRUG_OFFENCES": 20
+          }
+        },
+        {
+          "name": "Precinct_52",
+          "totalCrimes": 1929,
+          "crimeTypes": {
+            "THEFT": 415,
+            "VIOLENCE": 439,
+            "OTHER": 645,
+            "ROBBERY": 90,
+            "CRIMINAL_DAMAGE": 117,
+            "BURGLARY": 31,
+            "SEXUAL_OFFENCES": 35,
+            "VEHICLE_THEFT": 70,
+            "DRUG_OFFENCES": 77,
+            "TRAFFIC_OFFENCES": 10
+          }
+        },
+        {
+          "name": "Precinct_45",
+          "totalCrimes": 1389,
+          "crimeTypes": {
+            "VIOLENCE": 222,
+            "OTHER": 481,
+            "THEFT": 380,
+            "CRIMINAL_DAMAGE": 98,
+            "ROBBERY": 42,
+            "VEHICLE_THEFT": 102,
+            "BURGLARY": 13,
+            "SEXUAL_OFFENCES": 21,
+            "DRUG_OFFENCES": 7,
+            "TRAFFIC_OFFENCES": 23
+          }
+        },
+        {
+          "name": "Precinct_46",
+          "totalCrimes": 2093,
+          "crimeTypes": {
+            "ROBBERY": 80,
+            "VIOLENCE": 473,
+            "THEFT": 279,
+            "OTHER": 828,
+            "DRUG_OFFENCES": 198,
+            "BURGLARY": 34,
+            "VEHICLE_THEFT": 44,
+            "SEXUAL_OFFENCES": 36,
+            "TRAFFIC_OFFENCES": 7,
+            "CRIMINAL_DAMAGE": 114
+          }
+        },
+        {
+          "name": "Precinct_50",
+          "totalCrimes": 984,
+          "crimeTypes": {
+            "VIOLENCE": 155,
+            "OTHER": 316,
+            "THEFT": 326,
+            "CRIMINAL_DAMAGE": 74,
+            "BURGLARY": 17,
+            "SEXUAL_OFFENCES": 14,
+            "VEHICLE_THEFT": 52,
+            "ROBBERY": 23,
+            "DRUG_OFFENCES": 5,
+            "TRAFFIC_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_42",
+          "totalCrimes": 1925,
+          "crimeTypes": {
+            "VIOLENCE": 416,
+            "OTHER": 839,
+            "THEFT": 310,
+            "ROBBERY": 76,
+            "DRUG_OFFENCES": 44,
+            "BURGLARY": 32,
+            "CRIMINAL_DAMAGE": 118,
+            "VEHICLE_THEFT": 43,
+            "TRAFFIC_OFFENCES": 15,
+            "SEXUAL_OFFENCES": 32
+          }
+        },
+        {
+          "name": "Precinct_48",
+          "totalCrimes": 1940,
+          "crimeTypes": {
+            "OTHER": 735,
+            "VIOLENCE": 454,
+            "THEFT": 343,
+            "SEXUAL_OFFENCES": 28,
+            "TRAFFIC_OFFENCES": 10,
+            "ROBBERY": 89,
+            "CRIMINAL_DAMAGE": 134,
+            "VEHICLE_THEFT": 57,
+            "BURGLARY": 48,
+            "DRUG_OFFENCES": 42
+          }
+        },
+        {
+          "name": "Precinct_41",
+          "totalCrimes": 1335,
+          "crimeTypes": {
+            "OTHER": 591,
+            "VIOLENCE": 252,
+            "SEXUAL_OFFENCES": 39,
+            "CRIMINAL_DAMAGE": 67,
+            "ROBBERY": 67,
+            "THEFT": 196,
+            "DRUG_OFFENCES": 40,
+            "VEHICLE_THEFT": 35,
+            "BURGLARY": 43,
+            "TRAFFIC_OFFENCES": 5
+          }
+        },
+        {
+          "name": "Precinct_44",
+          "totalCrimes": 2615,
+          "crimeTypes": {
+            "OTHER": 1101,
+            "VIOLENCE": 574,
+            "VEHICLE_THEFT": 65,
+            "ROBBERY": 96,
+            "TRAFFIC_OFFENCES": 28,
+            "DRUG_OFFENCES": 54,
+            "BURGLARY": 40,
+            "THEFT": 459,
+            "CRIMINAL_DAMAGE": 157,
+            "SEXUAL_OFFENCES": 41
+          }
+        },
+        {
+          "name": "Precinct_40",
+          "totalCrimes": 2752,
+          "crimeTypes": {
+            "VIOLENCE": 484,
+            "OTHER": 1097,
+            "THEFT": 494,
+            "ROBBERY": 144,
+            "CRIMINAL_DAMAGE": 162,
+            "BURGLARY": 77,
+            "DRUG_OFFENCES": 178,
+            "VEHICLE_THEFT": 51,
+            "SEXUAL_OFFENCES": 44,
+            "TRAFFIC_OFFENCES": 21
+          }
+        },
+        {
+          "name": "Precinct_33",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "VEHICLE_THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_71",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "VIOLENCE": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BROOKLYN",
+      "score": 10,
+      "totalCrimes": 27497,
+      "crimeTypes": {
+        "VIOLENCE": 4665,
+        "OTHER": 11749,
+        "BURGLARY": 500,
+        "SEXUAL_OFFENCES": 399,
+        "THEFT": 5968,
+        "CRIMINAL_DAMAGE": 1764,
+        "DRUG_OFFENCES": 897,
+        "TRAFFIC_OFFENCES": 182,
+        "ROBBERY": 753,
+        "VEHICLE_THEFT": 620
+      },
+      "precincts": [
+        {
+          "name": "Precinct_75",
+          "totalCrimes": 3238,
+          "crimeTypes": {
+            "VIOLENCE": 556,
+            "OTHER": 1374,
+            "SEXUAL_OFFENCES": 49,
+            "CRIMINAL_DAMAGE": 229,
+            "THEFT": 652,
+            "DRUG_OFFENCES": 158,
+            "ROBBERY": 100,
+            "VEHICLE_THEFT": 69,
+            "BURGLARY": 36,
+            "TRAFFIC_OFFENCES": 15
+          }
+        },
+        {
+          "name": "Precinct_84",
+          "totalCrimes": 1216,
+          "crimeTypes": {
+            "VIOLENCE": 156,
+            "THEFT": 413,
+            "OTHER": 427,
+            "VEHICLE_THEFT": 26,
+            "ROBBERY": 62,
+            "SEXUAL_OFFENCES": 11,
+            "CRIMINAL_DAMAGE": 57,
+            "BURGLARY": 32,
+            "DRUG_OFFENCES": 27,
+            "TRAFFIC_OFFENCES": 5
+          }
+        },
+        {
+          "name": "Precinct_73",
+          "totalCrimes": 2108,
+          "crimeTypes": {
+            "OTHER": 960,
+            "BURGLARY": 30,
+            "VIOLENCE": 424,
+            "THEFT": 355,
+            "CRIMINAL_DAMAGE": 130,
+            "DRUG_OFFENCES": 69,
+            "ROBBERY": 64,
+            "VEHICLE_THEFT": 34,
+            "SEXUAL_OFFENCES": 34,
+            "TRAFFIC_OFFENCES": 8
+          }
+        },
+        {
+          "name": "Precinct_83",
+          "totalCrimes": 1491,
+          "crimeTypes": {
+            "VIOLENCE": 268,
+            "OTHER": 643,
+            "THEFT": 262,
+            "ROBBERY": 49,
+            "TRAFFIC_OFFENCES": 10,
+            "CRIMINAL_DAMAGE": 116,
+            "VEHICLE_THEFT": 28,
+            "SEXUAL_OFFENCES": 23,
+            "DRUG_OFFENCES": 76,
+            "BURGLARY": 16
+          }
+        },
+        {
+          "name": "Precinct_72",
+          "totalCrimes": 935,
+          "crimeTypes": {
+            "OTHER": 380,
+            "DRUG_OFFENCES": 78,
+            "VIOLENCE": 170,
+            "ROBBERY": 16,
+            "CRIMINAL_DAMAGE": 40,
+            "BURGLARY": 14,
+            "THEFT": 192,
+            "TRAFFIC_OFFENCES": 17,
+            "VEHICLE_THEFT": 14,
+            "SEXUAL_OFFENCES": 14
+          }
+        },
+        {
+          "name": "Precinct_69",
+          "totalCrimes": 690,
+          "crimeTypes": {
+            "VIOLENCE": 130,
+            "CRIMINAL_DAMAGE": 56,
+            "OTHER": 343,
+            "ROBBERY": 12,
+            "VEHICLE_THEFT": 21,
+            "THEFT": 94,
+            "BURGLARY": 16,
+            "DRUG_OFFENCES": 8,
+            "SEXUAL_OFFENCES": 7,
+            "TRAFFIC_OFFENCES": 3
+          }
+        },
+        {
+          "name": "Precinct_67",
+          "totalCrimes": 2083,
+          "crimeTypes": {
+            "OTHER": 1120,
+            "VIOLENCE": 389,
+            "THEFT": 273,
+            "TRAFFIC_OFFENCES": 11,
+            "DRUG_OFFENCES": 28,
+            "BURGLARY": 33,
+            "CRIMINAL_DAMAGE": 116,
+            "VEHICLE_THEFT": 43,
+            "ROBBERY": 43,
+            "SEXUAL_OFFENCES": 27
+          }
+        },
+        {
+          "name": "Precinct_81",
+          "totalCrimes": 936,
+          "crimeTypes": {
+            "OTHER": 472,
+            "VIOLENCE": 168,
+            "CRIMINAL_DAMAGE": 65,
+            "THEFT": 148,
+            "ROBBERY": 29,
+            "SEXUAL_OFFENCES": 6,
+            "VEHICLE_THEFT": 13,
+            "DRUG_OFFENCES": 20,
+            "BURGLARY": 12,
+            "TRAFFIC_OFFENCES": 3
+          }
+        },
+        {
+          "name": "Precinct_63",
+          "totalCrimes": 853,
+          "crimeTypes": {
+            "OTHER": 314,
+            "THEFT": 267,
+            "VIOLENCE": 126,
+            "ROBBERY": 16,
+            "BURGLARY": 15,
+            "VEHICLE_THEFT": 31,
+            "CRIMINAL_DAMAGE": 65,
+            "SEXUAL_OFFENCES": 8,
+            "TRAFFIC_OFFENCES": 7,
+            "DRUG_OFFENCES": 4
+          }
+        },
+        {
+          "name": "Precinct_79",
+          "totalCrimes": 1421,
+          "crimeTypes": {
+            "OTHER": 639,
+            "TRAFFIC_OFFENCES": 15,
+            "VIOLENCE": 238,
+            "BURGLARY": 22,
+            "THEFT": 282,
+            "ROBBERY": 51,
+            "CRIMINAL_DAMAGE": 94,
+            "SEXUAL_OFFENCES": 12,
+            "DRUG_OFFENCES": 53,
+            "VEHICLE_THEFT": 15
+          }
+        },
+        {
+          "name": "Precinct_88",
+          "totalCrimes": 791,
+          "crimeTypes": {
+            "THEFT": 178,
+            "VIOLENCE": 138,
+            "OTHER": 336,
+            "ROBBERY": 13,
+            "VEHICLE_THEFT": 24,
+            "DRUG_OFFENCES": 28,
+            "CRIMINAL_DAMAGE": 47,
+            "SEXUAL_OFFENCES": 7,
+            "BURGLARY": 18,
+            "TRAFFIC_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_71",
+          "totalCrimes": 975,
+          "crimeTypes": {
+            "OTHER": 393,
+            "TRAFFIC_OFFENCES": 6,
+            "THEFT": 218,
+            "CRIMINAL_DAMAGE": 74,
+            "VIOLENCE": 197,
+            "BURGLARY": 15,
+            "DRUG_OFFENCES": 17,
+            "VEHICLE_THEFT": 18,
+            "ROBBERY": 23,
+            "SEXUAL_OFFENCES": 14
+          }
+        },
+        {
+          "name": "Precinct_94",
+          "totalCrimes": 703,
+          "crimeTypes": {
+            "BURGLARY": 13,
+            "OTHER": 214,
+            "CRIMINAL_DAMAGE": 44,
+            "THEFT": 259,
+            "VIOLENCE": 101,
+            "TRAFFIC_OFFENCES": 4,
+            "VEHICLE_THEFT": 29,
+            "DRUG_OFFENCES": 8,
+            "ROBBERY": 21,
+            "SEXUAL_OFFENCES": 10
+          }
+        },
+        {
+          "name": "Precinct_70",
+          "totalCrimes": 1216,
+          "crimeTypes": {
+            "THEFT": 311,
+            "VIOLENCE": 216,
+            "OTHER": 466,
+            "CRIMINAL_DAMAGE": 89,
+            "ROBBERY": 35,
+            "SEXUAL_OFFENCES": 29,
+            "VEHICLE_THEFT": 24,
+            "DRUG_OFFENCES": 26,
+            "BURGLARY": 18,
+            "TRAFFIC_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_90",
+          "totalCrimes": 1063,
+          "crimeTypes": {
+            "OTHER": 382,
+            "THEFT": 309,
+            "CRIMINAL_DAMAGE": 77,
+            "DRUG_OFFENCES": 19,
+            "VIOLENCE": 136,
+            "ROBBERY": 36,
+            "SEXUAL_OFFENCES": 19,
+            "BURGLARY": 46,
+            "VEHICLE_THEFT": 34,
+            "TRAFFIC_OFFENCES": 5
+          }
+        },
+        {
+          "name": "Precinct_77",
+          "totalCrimes": 1214,
+          "crimeTypes": {
+            "OTHER": 579,
+            "VIOLENCE": 195,
+            "CRIMINAL_DAMAGE": 58,
+            "BURGLARY": 23,
+            "ROBBERY": 38,
+            "VEHICLE_THEFT": 24,
+            "DRUG_OFFENCES": 42,
+            "THEFT": 226,
+            "SEXUAL_OFFENCES": 28,
+            "TRAFFIC_OFFENCES": 1
+          }
+        },
+        {
+          "name": "Precinct_61",
+          "totalCrimes": 990,
+          "crimeTypes": {
+            "OTHER": 357,
+            "THEFT": 240,
+            "ROBBERY": 23,
+            "SEXUAL_OFFENCES": 7,
+            "BURGLARY": 24,
+            "CRIMINAL_DAMAGE": 84,
+            "VIOLENCE": 173,
+            "VEHICLE_THEFT": 41,
+            "TRAFFIC_OFFENCES": 11,
+            "DRUG_OFFENCES": 30
+          }
+        },
+        {
+          "name": "Precinct_60",
+          "totalCrimes": 1513,
+          "crimeTypes": {
+            "VIOLENCE": 287,
+            "OTHER": 761,
+            "THEFT": 222,
+            "DRUG_OFFENCES": 70,
+            "TRAFFIC_OFFENCES": 5,
+            "ROBBERY": 33,
+            "SEXUAL_OFFENCES": 25,
+            "CRIMINAL_DAMAGE": 73,
+            "BURGLARY": 17,
+            "VEHICLE_THEFT": 20
+          }
+        },
+        {
+          "name": "Precinct_78",
+          "totalCrimes": 787,
+          "crimeTypes": {
+            "VIOLENCE": 86,
+            "OTHER": 308,
+            "SEXUAL_OFFENCES": 14,
+            "CRIMINAL_DAMAGE": 39,
+            "THEFT": 281,
+            "VEHICLE_THEFT": 9,
+            "DRUG_OFFENCES": 18,
+            "ROBBERY": 12,
+            "BURGLARY": 20
+          }
+        },
+        {
+          "name": "Precinct_62",
+          "totalCrimes": 1148,
+          "crimeTypes": {
+            "THEFT": 305,
+            "OTHER": 429,
+            "VEHICLE_THEFT": 33,
+            "BURGLARY": 30,
+            "VIOLENCE": 199,
+            "CRIMINAL_DAMAGE": 62,
+            "ROBBERY": 31,
+            "TRAFFIC_OFFENCES": 16,
+            "SEXUAL_OFFENCES": 24,
+            "DRUG_OFFENCES": 19
+          }
+        },
+        {
+          "name": "Precinct_66",
+          "totalCrimes": 808,
+          "crimeTypes": {
+            "ROBBERY": 15,
+            "OTHER": 303,
+            "SEXUAL_OFFENCES": 11,
+            "THEFT": 203,
+            "VIOLENCE": 131,
+            "CRIMINAL_DAMAGE": 54,
+            "VEHICLE_THEFT": 35,
+            "DRUG_OFFENCES": 26,
+            "BURGLARY": 20,
+            "TRAFFIC_OFFENCES": 10
+          }
+        },
+        {
+          "name": "Precinct_68",
+          "totalCrimes": 789,
+          "crimeTypes": {
+            "OTHER": 322,
+            "THEFT": 180,
+            "VEHICLE_THEFT": 25,
+            "VIOLENCE": 128,
+            "SEXUAL_OFFENCES": 14,
+            "CRIMINAL_DAMAGE": 61,
+            "ROBBERY": 18,
+            "BURGLARY": 11,
+            "TRAFFIC_OFFENCES": 18,
+            "DRUG_OFFENCES": 12
+          }
+        },
+        {
+          "name": "Precinct_76",
+          "totalCrimes": 509,
+          "crimeTypes": {
+            "THEFT": 95,
+            "VIOLENCE": 50,
+            "OTHER": 218,
+            "BURGLARY": 19,
+            "CRIMINAL_DAMAGE": 32,
+            "DRUG_OFFENCES": 59,
+            "ROBBERY": 12,
+            "VEHICLE_THEFT": 10,
+            "SEXUAL_OFFENCES": 6,
+            "TRAFFIC_OFFENCES": 8
+          }
+        },
+        {
+          "name": "Precinct_104",
+          "totalCrimes": 16,
+          "crimeTypes": {
+            "OTHER": 7,
+            "THEFT": 2,
+            "DRUG_OFFENCES": 2,
+            "ROBBERY": 1,
+            "CRIMINAL_DAMAGE": 2,
+            "VIOLENCE": 2
+          }
+        },
+        {
+          "name": "Precinct_13",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "OTHER": 1
+          }
+        },
+        {
+          "name": "Precinct_34",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_52",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "OTHER": 1
+          }
+        },
+        {
+          "name": "Precinct_23",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "VIOLENCE": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "MANHATTAN",
+      "score": 8,
+      "totalCrimes": 23507,
+      "crimeTypes": {
+        "VIOLENCE": 3347,
+        "OTHER": 8030,
+        "THEFT": 7977,
+        "BURGLARY": 521,
+        "DRUG_OFFENCES": 974,
+        "ROBBERY": 614,
+        "CRIMINAL_DAMAGE": 1338,
+        "SEXUAL_OFFENCES": 417,
+        "VEHICLE_THEFT": 231,
+        "TRAFFIC_OFFENCES": 58
+      },
+      "precincts": [
+        {
+          "name": "Precinct_7",
+          "totalCrimes": 816,
+          "crimeTypes": {
+            "VIOLENCE": 130,
+            "OTHER": 263,
+            "THEFT": 302,
+            "VEHICLE_THEFT": 11,
+            "CRIMINAL_DAMAGE": 42,
+            "SEXUAL_OFFENCES": 15,
+            "ROBBERY": 15,
+            "DRUG_OFFENCES": 26,
+            "BURGLARY": 10,
+            "TRAFFIC_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_25",
+          "totalCrimes": 1214,
+          "crimeTypes": {
+            "OTHER": 513,
+            "VIOLENCE": 223,
+            "CRIMINAL_DAMAGE": 76,
+            "THEFT": 202,
+            "BURGLARY": 21,
+            "SEXUAL_OFFENCES": 17,
+            "DRUG_OFFENCES": 106,
+            "ROBBERY": 39,
+            "VEHICLE_THEFT": 13,
+            "TRAFFIC_OFFENCES": 4
+          }
+        },
+        {
+          "name": "Precinct_18",
+          "totalCrimes": 1707,
+          "crimeTypes": {
+            "OTHER": 595,
+            "THEFT": 652,
+            "VIOLENCE": 235,
+            "BURGLARY": 37,
+            "ROBBERY": 49,
+            "SEXUAL_OFFENCES": 27,
+            "VEHICLE_THEFT": 12,
+            "CRIMINAL_DAMAGE": 59,
+            "DRUG_OFFENCES": 39,
+            "TRAFFIC_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_33",
+          "totalCrimes": 812,
+          "crimeTypes": {
+            "OTHER": 299,
+            "DRUG_OFFENCES": 56,
+            "VIOLENCE": 148,
+            "THEFT": 151,
+            "BURGLARY": 15,
+            "CRIMINAL_DAMAGE": 70,
+            "ROBBERY": 33,
+            "TRAFFIC_OFFENCES": 4,
+            "VEHICLE_THEFT": 24,
+            "SEXUAL_OFFENCES": 12
+          }
+        },
+        {
+          "name": "Precinct_19",
+          "totalCrimes": 1296,
+          "crimeTypes": {
+            "THEFT": 691,
+            "ROBBERY": 26,
+            "VIOLENCE": 122,
+            "OTHER": 316,
+            "BURGLARY": 50,
+            "SEXUAL_OFFENCES": 22,
+            "VEHICLE_THEFT": 13,
+            "DRUG_OFFENCES": 6,
+            "CRIMINAL_DAMAGE": 50
+          }
+        },
+        {
+          "name": "Precinct_23",
+          "totalCrimes": 1139,
+          "crimeTypes": {
+            "VIOLENCE": 214,
+            "BURGLARY": 18,
+            "OTHER": 478,
+            "ROBBERY": 41,
+            "CRIMINAL_DAMAGE": 85,
+            "THEFT": 213,
+            "VEHICLE_THEFT": 14,
+            "TRAFFIC_OFFENCES": 8,
+            "DRUG_OFFENCES": 39,
+            "SEXUAL_OFFENCES": 29
+          }
+        },
+        {
+          "name": "Precinct_32",
+          "totalCrimes": 1240,
+          "crimeTypes": {
+            "VIOLENCE": 277,
+            "THEFT": 208,
+            "OTHER": 501,
+            "CRIMINAL_DAMAGE": 106,
+            "TRAFFIC_OFFENCES": 11,
+            "SEXUAL_OFFENCES": 27,
+            "ROBBERY": 40,
+            "BURGLARY": 25,
+            "DRUG_OFFENCES": 27,
+            "VEHICLE_THEFT": 18
+          }
+        },
+        {
+          "name": "Precinct_34",
+          "totalCrimes": 1220,
+          "crimeTypes": {
+            "OTHER": 479,
+            "THEFT": 267,
+            "VIOLENCE": 211,
+            "DRUG_OFFENCES": 72,
+            "BURGLARY": 15,
+            "CRIMINAL_DAMAGE": 72,
+            "SEXUAL_OFFENCES": 22,
+            "ROBBERY": 36,
+            "TRAFFIC_OFFENCES": 9,
+            "VEHICLE_THEFT": 37
+          }
+        },
+        {
+          "name": "Precinct_20",
+          "totalCrimes": 739,
+          "crimeTypes": {
+            "BURGLARY": 22,
+            "THEFT": 355,
+            "VIOLENCE": 58,
+            "OTHER": 213,
+            "ROBBERY": 19,
+            "SEXUAL_OFFENCES": 10,
+            "VEHICLE_THEFT": 11,
+            "CRIMINAL_DAMAGE": 43,
+            "DRUG_OFFENCES": 8
+          }
+        },
+        {
+          "name": "Precinct_28",
+          "totalCrimes": 978,
+          "crimeTypes": {
+            "VIOLENCE": 160,
+            "OTHER": 312,
+            "THEFT": 293,
+            "ROBBERY": 20,
+            "DRUG_OFFENCES": 89,
+            "CRIMINAL_DAMAGE": 74,
+            "SEXUAL_OFFENCES": 12,
+            "BURGLARY": 10,
+            "VEHICLE_THEFT": 7,
+            "TRAFFIC_OFFENCES": 1
+          }
+        },
+        {
+          "name": "Precinct_9",
+          "totalCrimes": 904,
+          "crimeTypes": {
+            "BURGLARY": 26,
+            "THEFT": 322,
+            "OTHER": 266,
+            "VIOLENCE": 159,
+            "CRIMINAL_DAMAGE": 58,
+            "ROBBERY": 28,
+            "DRUG_OFFENCES": 26,
+            "VEHICLE_THEFT": 5,
+            "SEXUAL_OFFENCES": 13,
+            "TRAFFIC_OFFENCES": 1
+          }
+        },
+        {
+          "name": "Precinct_24",
+          "totalCrimes": 876,
+          "crimeTypes": {
+            "THEFT": 350,
+            "VIOLENCE": 110,
+            "OTHER": 276,
+            "CRIMINAL_DAMAGE": 57,
+            "TRAFFIC_OFFENCES": 2,
+            "BURGLARY": 32,
+            "VEHICLE_THEFT": 5,
+            "ROBBERY": 15,
+            "SEXUAL_OFFENCES": 14,
+            "DRUG_OFFENCES": 15
+          }
+        },
+        {
+          "name": "Precinct_30",
+          "totalCrimes": 778,
+          "crimeTypes": {
+            "OTHER": 322,
+            "THEFT": 201,
+            "VIOLENCE": 100,
+            "DRUG_OFFENCES": 36,
+            "CRIMINAL_DAMAGE": 49,
+            "ROBBERY": 20,
+            "SEXUAL_OFFENCES": 16,
+            "TRAFFIC_OFFENCES": 4,
+            "VEHICLE_THEFT": 16,
+            "BURGLARY": 14
+          }
+        },
+        {
+          "name": "Precinct_14",
+          "totalCrimes": 2788,
+          "crimeTypes": {
+            "VIOLENCE": 325,
+            "THEFT": 956,
+            "OTHER": 1011,
+            "ROBBERY": 68,
+            "DRUG_OFFENCES": 216,
+            "SEXUAL_OFFENCES": 46,
+            "CRIMINAL_DAMAGE": 101,
+            "BURGLARY": 61,
+            "VEHICLE_THEFT": 4
+          }
+        },
+        {
+          "name": "Precinct_13",
+          "totalCrimes": 1469,
+          "crimeTypes": {
+            "THEFT": 650,
+            "BURGLARY": 38,
+            "ROBBERY": 47,
+            "CRIMINAL_DAMAGE": 86,
+            "OTHER": 398,
+            "VIOLENCE": 192,
+            "DRUG_OFFENCES": 20,
+            "SEXUAL_OFFENCES": 24,
+            "TRAFFIC_OFFENCES": 2,
+            "VEHICLE_THEFT": 12
+          }
+        },
+        {
+          "name": "Precinct_17",
+          "totalCrimes": 574,
+          "crimeTypes": {
+            "OTHER": 165,
+            "CRIMINAL_DAMAGE": 34,
+            "THEFT": 263,
+            "ROBBERY": 10,
+            "VIOLENCE": 56,
+            "SEXUAL_OFFENCES": 16,
+            "BURGLARY": 20,
+            "DRUG_OFFENCES": 4,
+            "VEHICLE_THEFT": 5,
+            "TRAFFIC_OFFENCES": 1
+          }
+        },
+        {
+          "name": "Precinct_10",
+          "totalCrimes": 707,
+          "crimeTypes": {
+            "VIOLENCE": 104,
+            "SEXUAL_OFFENCES": 16,
+            "THEFT": 246,
+            "CRIMINAL_DAMAGE": 44,
+            "ROBBERY": 16,
+            "DRUG_OFFENCES": 30,
+            "OTHER": 233,
+            "BURGLARY": 11,
+            "TRAFFIC_OFFENCES": 3,
+            "VEHICLE_THEFT": 4
+          }
+        },
+        {
+          "name": "Precinct_1",
+          "totalCrimes": 1503,
+          "crimeTypes": {
+            "THEFT": 706,
+            "ROBBERY": 30,
+            "OTHER": 492,
+            "VIOLENCE": 116,
+            "CRIMINAL_DAMAGE": 76,
+            "BURGLARY": 35,
+            "DRUG_OFFENCES": 23,
+            "VEHICLE_THEFT": 6,
+            "SEXUAL_OFFENCES": 18,
+            "TRAFFIC_OFFENCES": 1
+          }
+        },
+        {
+          "name": "Precinct_6",
+          "totalCrimes": 1019,
+          "crimeTypes": {
+            "VIOLENCE": 132,
+            "OTHER": 278,
+            "THEFT": 399,
+            "SEXUAL_OFFENCES": 14,
+            "DRUG_OFFENCES": 81,
+            "CRIMINAL_DAMAGE": 68,
+            "ROBBERY": 22,
+            "BURGLARY": 24,
+            "VEHICLE_THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_5",
+          "totalCrimes": 1076,
+          "crimeTypes": {
+            "VIOLENCE": 145,
+            "OTHER": 345,
+            "THEFT": 411,
+            "DRUG_OFFENCES": 38,
+            "BURGLARY": 27,
+            "CRIMINAL_DAMAGE": 58,
+            "ROBBERY": 23,
+            "SEXUAL_OFFENCES": 24,
+            "VEHICLE_THEFT": 4,
+            "TRAFFIC_OFFENCES": 1
+          }
+        },
+        {
+          "name": "Precinct_22",
+          "totalCrimes": 72,
+          "crimeTypes": {
+            "THEFT": 16,
+            "OTHER": 26,
+            "VIOLENCE": 16,
+            "DRUG_OFFENCES": 6,
+            "CRIMINAL_DAMAGE": 1,
+            "SEXUAL_OFFENCES": 7
+          }
+        },
+        {
+          "name": "Precinct_26",
+          "totalCrimes": 544,
+          "crimeTypes": {
+            "THEFT": 111,
+            "VIOLENCE": 105,
+            "OTHER": 237,
+            "ROBBERY": 16,
+            "BURGLARY": 10,
+            "SEXUAL_OFFENCES": 16,
+            "DRUG_OFFENCES": 11,
+            "VEHICLE_THEFT": 9,
+            "CRIMINAL_DAMAGE": 27,
+            "TRAFFIC_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_114",
+          "totalCrimes": 33,
+          "crimeTypes": {
+            "THEFT": 11,
+            "OTHER": 12,
+            "VIOLENCE": 7,
+            "CRIMINAL_DAMAGE": 2,
+            "ROBBERY": 1
+          }
+        },
+        {
+          "name": "Precinct_113",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "VIOLENCE": 1
+          }
+        },
+        {
+          "name": "Precinct_50",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "THEFT": 1
+          }
+        },
+        {
+          "name": "Precinct_101",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "VIOLENCE": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "QUEENS",
+      "score": 4,
+      "totalCrimes": 21315,
+      "crimeTypes": {
+        "VIOLENCE": 3638,
+        "OTHER": 8188,
+        "CRIMINAL_DAMAGE": 1380,
+        "THEFT": 5150,
+        "SEXUAL_OFFENCES": 551,
+        "BURGLARY": 422,
+        "DRUG_OFFENCES": 499,
+        "ROBBERY": 499,
+        "VEHICLE_THEFT": 784,
+        "TRAFFIC_OFFENCES": 204
+      },
+      "precincts": [
+        {
+          "name": "Precinct_105",
+          "totalCrimes": 789,
+          "crimeTypes": {
+            "VIOLENCE": 126,
+            "THEFT": 154,
+            "CRIMINAL_DAMAGE": 54,
+            "ROBBERY": 12,
+            "VEHICLE_THEFT": 35,
+            "OTHER": 364,
+            "SEXUAL_OFFENCES": 19,
+            "BURGLARY": 17,
+            "TRAFFIC_OFFENCES": 6,
+            "DRUG_OFFENCES": 2
+          }
+        },
+        {
+          "name": "Precinct_110",
+          "totalCrimes": 1738,
+          "crimeTypes": {
+            "OTHER": 541,
+            "VIOLENCE": 339,
+            "CRIMINAL_DAMAGE": 93,
+            "THEFT": 537,
+            "ROBBERY": 69,
+            "BURGLARY": 23,
+            "SEXUAL_OFFENCES": 49,
+            "TRAFFIC_OFFENCES": 18,
+            "VEHICLE_THEFT": 48,
+            "DRUG_OFFENCES": 21
+          }
+        },
+        {
+          "name": "Precinct_107",
+          "totalCrimes": 1094,
+          "crimeTypes": {
+            "OTHER": 424,
+            "VIOLENCE": 164,
+            "ROBBERY": 15,
+            "CRIMINAL_DAMAGE": 93,
+            "VEHICLE_THEFT": 55,
+            "THEFT": 269,
+            "BURGLARY": 22,
+            "SEXUAL_OFFENCES": 28,
+            "TRAFFIC_OFFENCES": 11,
+            "DRUG_OFFENCES": 13
+          }
+        },
+        {
+          "name": "Precinct_103",
+          "totalCrimes": 2376,
+          "crimeTypes": {
+            "VIOLENCE": 409,
+            "OTHER": 998,
+            "DRUG_OFFENCES": 165,
+            "THEFT": 402,
+            "BURGLARY": 43,
+            "SEXUAL_OFFENCES": 126,
+            "TRAFFIC_OFFENCES": 10,
+            "CRIMINAL_DAMAGE": 109,
+            "ROBBERY": 75,
+            "VEHICLE_THEFT": 39
+          }
+        },
+        {
+          "name": "Precinct_102",
+          "totalCrimes": 1119,
+          "crimeTypes": {
+            "OTHER": 410,
+            "VIOLENCE": 203,
+            "THEFT": 255,
+            "ROBBERY": 26,
+            "CRIMINAL_DAMAGE": 90,
+            "VEHICLE_THEFT": 64,
+            "SEXUAL_OFFENCES": 31,
+            "DRUG_OFFENCES": 19,
+            "BURGLARY": 8,
+            "TRAFFIC_OFFENCES": 13
+          }
+        },
+        {
+          "name": "Precinct_112",
+          "totalCrimes": 919,
+          "crimeTypes": {
+            "VIOLENCE": 81,
+            "BURGLARY": 24,
+            "THEFT": 397,
+            "CRIMINAL_DAMAGE": 46,
+            "OTHER": 300,
+            "SEXUAL_OFFENCES": 10,
+            "TRAFFIC_OFFENCES": 11,
+            "ROBBERY": 13,
+            "VEHICLE_THEFT": 26,
+            "DRUG_OFFENCES": 11
+          }
+        },
+        {
+          "name": "Precinct_106",
+          "totalCrimes": 1126,
+          "crimeTypes": {
+            "OTHER": 412,
+            "VIOLENCE": 233,
+            "CRIMINAL_DAMAGE": 78,
+            "THEFT": 263,
+            "ROBBERY": 29,
+            "TRAFFIC_OFFENCES": 7,
+            "SEXUAL_OFFENCES": 22,
+            "VEHICLE_THEFT": 54,
+            "BURGLARY": 19,
+            "DRUG_OFFENCES": 9
+          }
+        },
+        {
+          "name": "Precinct_116",
+          "totalCrimes": 912,
+          "crimeTypes": {
+            "CRIMINAL_DAMAGE": 72,
+            "VIOLENCE": 189,
+            "OTHER": 430,
+            "THEFT": 98,
+            "SEXUAL_OFFENCES": 51,
+            "VEHICLE_THEFT": 31,
+            "TRAFFIC_OFFENCES": 16,
+            "BURGLARY": 7,
+            "DRUG_OFFENCES": 10,
+            "ROBBERY": 8
+          }
+        },
+        {
+          "name": "Precinct_113",
+          "totalCrimes": 1362,
+          "crimeTypes": {
+            "VIOLENCE": 227,
+            "SEXUAL_OFFENCES": 22,
+            "OTHER": 632,
+            "VEHICLE_THEFT": 42,
+            "THEFT": 268,
+            "CRIMINAL_DAMAGE": 106,
+            "ROBBERY": 18,
+            "TRAFFIC_OFFENCES": 6,
+            "DRUG_OFFENCES": 31,
+            "BURGLARY": 10
+          }
+        },
+        {
+          "name": "Precinct_115",
+          "totalCrimes": 1617,
+          "crimeTypes": {
+            "VIOLENCE": 335,
+            "THEFT": 343,
+            "OTHER": 560,
+            "DRUG_OFFENCES": 73,
+            "CRIMINAL_DAMAGE": 92,
+            "ROBBERY": 53,
+            "SEXUAL_OFFENCES": 50,
+            "BURGLARY": 18,
+            "VEHICLE_THEFT": 50,
+            "TRAFFIC_OFFENCES": 43
+          }
+        },
+        {
+          "name": "Precinct_100",
+          "totalCrimes": 509,
+          "crimeTypes": {
+            "OTHER": 195,
+            "VIOLENCE": 100,
+            "THEFT": 129,
+            "TRAFFIC_OFFENCES": 4,
+            "ROBBERY": 11,
+            "DRUG_OFFENCES": 10,
+            "CRIMINAL_DAMAGE": 38,
+            "SEXUAL_OFFENCES": 6,
+            "BURGLARY": 12,
+            "VEHICLE_THEFT": 4
+          }
+        },
+        {
+          "name": "Precinct_101",
+          "totalCrimes": 1042,
+          "crimeTypes": {
+            "THEFT": 174,
+            "OTHER": 514,
+            "VIOLENCE": 204,
+            "DRUG_OFFENCES": 34,
+            "CRIMINAL_DAMAGE": 60,
+            "ROBBERY": 12,
+            "SEXUAL_OFFENCES": 20,
+            "BURGLARY": 9,
+            "TRAFFIC_OFFENCES": 10,
+            "VEHICLE_THEFT": 5
+          }
+        },
+        {
+          "name": "Precinct_109",
+          "totalCrimes": 1849,
+          "crimeTypes": {
+            "VIOLENCE": 265,
+            "THEFT": 579,
+            "OTHER": 632,
+            "DRUG_OFFENCES": 23,
+            "ROBBERY": 46,
+            "VEHICLE_THEFT": 103,
+            "CRIMINAL_DAMAGE": 89,
+            "BURGLARY": 66,
+            "SEXUAL_OFFENCES": 29,
+            "TRAFFIC_OFFENCES": 17
+          }
+        },
+        {
+          "name": "Precinct_114",
+          "totalCrimes": 1883,
+          "crimeTypes": {
+            "SEXUAL_OFFENCES": 36,
+            "OTHER": 690,
+            "THEFT": 462,
+            "CRIMINAL_DAMAGE": 145,
+            "VIOLENCE": 321,
+            "BURGLARY": 45,
+            "ROBBERY": 42,
+            "VEHICLE_THEFT": 71,
+            "TRAFFIC_OFFENCES": 11,
+            "DRUG_OFFENCES": 60
+          }
+        },
+        {
+          "name": "Precinct_108",
+          "totalCrimes": 1150,
+          "crimeTypes": {
+            "OTHER": 376,
+            "CRIMINAL_DAMAGE": 106,
+            "THEFT": 365,
+            "VIOLENCE": 158,
+            "VEHICLE_THEFT": 50,
+            "ROBBERY": 34,
+            "TRAFFIC_OFFENCES": 3,
+            "BURGLARY": 28,
+            "SEXUAL_OFFENCES": 20,
+            "DRUG_OFFENCES": 10
+          }
+        },
+        {
+          "name": "Precinct_104",
+          "totalCrimes": 1202,
+          "crimeTypes": {
+            "VIOLENCE": 221,
+            "OTHER": 465,
+            "THEFT": 304,
+            "CRIMINAL_DAMAGE": 77,
+            "BURGLARY": 19,
+            "ROBBERY": 28,
+            "VEHICLE_THEFT": 54,
+            "TRAFFIC_OFFENCES": 7,
+            "SEXUAL_OFFENCES": 22,
+            "DRUG_OFFENCES": 5
+          }
+        },
+        {
+          "name": "Precinct_111",
+          "totalCrimes": 625,
+          "crimeTypes": {
+            "CRIMINAL_DAMAGE": 32,
+            "VEHICLE_THEFT": 53,
+            "THEFT": 151,
+            "OTHER": 243,
+            "BURGLARY": 52,
+            "SEXUAL_OFFENCES": 10,
+            "TRAFFIC_OFFENCES": 11,
+            "VIOLENCE": 62,
+            "ROBBERY": 8,
+            "DRUG_OFFENCES": 3
+          }
+        },
+        {
+          "name": "Precinct_83",
+          "totalCrimes": 2,
+          "crimeTypes": {
+            "OTHER": 2
+          }
+        },
+        {
+          "name": "Precinct_5",
+          "totalCrimes": 1,
+          "crimeTypes": {
+            "VIOLENCE": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "STATEN ISLAND",
+      "score": 2,
+      "totalCrimes": 4348,
+      "crimeTypes": {
+        "VIOLENCE": 650,
+        "THEFT": 875,
+        "OTHER": 2078,
+        "CRIMINAL_DAMAGE": 323,
+        "ROBBERY": 63,
+        "DRUG_OFFENCES": 168,
+        "TRAFFIC_OFFENCES": 46,
+        "BURGLARY": 40,
+        "SEXUAL_OFFENCES": 73,
+        "VEHICLE_THEFT": 32
+      },
+      "precincts": [
+        {
+          "name": "Precinct_122",
+          "totalCrimes": 916,
+          "crimeTypes": {
+            "VIOLENCE": 160,
+            "THEFT": 225,
+            "OTHER": 382,
+            "CRIMINAL_DAMAGE": 76,
+            "BURGLARY": 11,
+            "VEHICLE_THEFT": 11,
+            "SEXUAL_OFFENCES": 13,
+            "ROBBERY": 9,
+            "DRUG_OFFENCES": 19,
+            "TRAFFIC_OFFENCES": 10
+          }
+        },
+        {
+          "name": "Precinct_121",
+          "totalCrimes": 1117,
+          "crimeTypes": {
+            "OTHER": 491,
+            "VIOLENCE": 177,
+            "CRIMINAL_DAMAGE": 74,
+            "BURGLARY": 11,
+            "SEXUAL_OFFENCES": 20,
+            "THEFT": 277,
+            "ROBBERY": 21,
+            "DRUG_OFFENCES": 19,
+            "TRAFFIC_OFFENCES": 19,
+            "VEHICLE_THEFT": 8
+          }
+        },
+        {
+          "name": "Precinct_120",
+          "totalCrimes": 1777,
+          "crimeTypes": {
+            "CRIMINAL_DAMAGE": 115,
+            "THEFT": 270,
+            "OTHER": 932,
+            "VIOLENCE": 244,
+            "ROBBERY": 24,
+            "DRUG_OFFENCES": 128,
+            "TRAFFIC_OFFENCES": 14,
+            "SEXUAL_OFFENCES": 31,
+            "VEHICLE_THEFT": 8,
+            "BURGLARY": 11
+          }
+        },
+        {
+          "name": "Precinct_123",
+          "totalCrimes": 538,
+          "crimeTypes": {
+            "VIOLENCE": 69,
+            "OTHER": 273,
+            "ROBBERY": 9,
+            "CRIMINAL_DAMAGE": 58,
+            "THEFT": 103,
+            "SEXUAL_OFFENCES": 9,
+            "BURGLARY": 7,
+            "VEHICLE_THEFT": 5,
+            "DRUG_OFFENCES": 2,
+            "TRAFFIC_OFFENCES": 3
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeWorld - Crime Safety Map</title>
+  <style>
+    html,body,#map{height:100%;margin:0}
+    .label-halo { text-shadow: 0 0 3px #ffffff; }
+  </style>
+
+</head>
+<body>
+   <div id="map"></div>
+  <script src="colorblind-accessibility.js"></script>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+<script>
+  const script = document.createElement('script');
+  script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places&callback=initMap`;
+  script.async = true;
+  script.defer = true;
+  document.head.appendChild(script);
+</script>
+  
+</body>
+</html>

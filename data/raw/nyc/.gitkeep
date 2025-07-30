@@ -1,0 +1,5 @@
+# This file ensures the directory is tracked by git
+# NYC raw data files will be automatically downloaded here
+# Files include:
+# - nyc_crime_raw.json
+# - nyc_boundaries.geojson

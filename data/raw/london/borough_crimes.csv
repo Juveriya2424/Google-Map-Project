@@ -1,0 +1,34 @@
+﻿Borough,Crimes12M,Score
+City of London,119,0
+Richmond upon Thames,1133,1
+Kingston upon Thames,1195,1
+Merton,1401,1
+Sutton,1412,2
+Bexley,1651,2
+Harrow,1651,2
+Barking and Dagenham,2034,3
+Havering,2050,3
+Kensington and Chelsea,2145,3
+Hammersmith and Fulham,2196,4
+Bromley,2269,4
+Waltham Forest,2404,4
+Redbridge,2425,5
+Hounslow,2642,5
+Wandsworth,2723,5
+Greenwich,2738,5
+Lewisham,2826,6
+Haringey,2833,6
+Barnet,2895,6
+Islington,2934,7
+Enfield,3035,7
+Hillingdon,3131,7
+Brent,3328,8
+Ealing,3338,8
+Hackney,3436,8
+Tower Hamlets,3500,9
+Croydon,3503,9
+Lambeth,3518,9
+Southwark,3756,10
+Newham,3834,10
+Camden,3869,10
+Westminster,8475,10
