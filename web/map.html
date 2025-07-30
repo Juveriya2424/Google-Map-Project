@@ -25,12 +25,16 @@
     if (typeof loadGoogleMapsScript === 'function') {
       loadGoogleMapsScript();
     } else {
-      // Fallback: load Google Maps directly if config.js doesn't load properly
-      const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.GOOGLE_MAPS_API_KEY}&callback=initMap&libraries=geometry`;
-      script.async = true;
-      script.defer = true;
-      document.head.appendChild(script);
+      // Fallback: load Google Maps directly using config
+      if (typeof CONFIG !== 'undefined' && CONFIG.GOOGLE_MAPS_API_KEY) {
+        const script = document.createElement("script");
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.GOOGLE_MAPS_API_KEY}&callback=initMap&libraries=geometry`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+      } else {
+        console.error('Google Maps API key not found in config');
+      }
     }
   </script>
 </body>
