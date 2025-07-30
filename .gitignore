@@ -173,7 +173,7 @@ Thumbs.db
 
 # API Keys and Sensitive Data
 config.py
-config.js
+# config.js - temporarily allowed for GitHub Pages with restricted API key
 secrets.json
 .env.local
 .env.production

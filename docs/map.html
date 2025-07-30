@@ -1,6 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<htm  <!-- Initialize Google Maps loading after all scripts are loaded -->
+  <script>
+    // Ensure Google Maps loads properly
+    if (typeof loadGoogleMapsScript === 'function') {
+      loadGoogleMapsScript();
+    } else {
+      console.error('Config.js not loaded properly - cannot initialize Google Maps');
+      alert('Configuration error: Please check that config.js is loaded properly');
+    }
+  </script><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SafeWorld - Crime Safety Map</title>
@@ -27,7 +35,7 @@
     } else {
       // Fallback: load Google Maps directly if config.js doesn't load properly
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${CONFIG.GOOGLE_MAPS_API_KEY}&callback=initMap&libraries=geometry`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDwvCx7OV3pOLcwfW4Few3bKddgLmuLBhA&callback=initMap&libraries=geometry`;
       script.async = true;
       script.defer = true;
       document.head.appendChild(script);
