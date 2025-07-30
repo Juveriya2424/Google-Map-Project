@@ -7,16 +7,57 @@
   <style>
     html,body,#map{height:100%;margin:0}
     .label-halo { text-shadow: 0 0 3px #ffffff; }
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #666;
+    }
   </style>
-
 </head>
 <body>
-   <div id="map"></div>
-  <script src="visual-inclusivity.js"></script>
-  <script src="script.js"></script>
-  <script async 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwvCx7OV3pOLcwfW4Few3bKddgLmuLBhA&callback=initMap&libraries=geometry">
-  </script>
+  <div id="loading" class="loading">Loading SafeWorld Crime Map...</div>
+  <div id="map" style="display: none;"></div>
   
+  <!-- Load configuration first -->
+  <script src="../../config.js"></script>
+  <!-- Load visual inclusivity features -->
+  <script src="assets/js/visual-inclusivity.js"></script>
+  <!-- Load main application script -->
+  <script src="assets/js/script.js"></script>
+  
+  <!-- Initialize the application -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM loaded, initializing app...');
+      
+      // Check if config is loaded
+      if (typeof CONFIG === 'undefined' || !CONFIG.GOOGLE_MAPS_API_KEY || CONFIG.GOOGLE_MAPS_API_KEY === 'YOUR_GOOGLE_MAPS_API_KEY_HERE') {
+        console.error('Configuration not loaded or API key missing!');
+        document.getElementById('loading').innerHTML = 'Configuration Error: Please check your API key setup.';
+        return;
+      }
+      
+      // Load Google Maps and start the application
+      loadGoogleMapsScript().catch(error => {
+        console.error('Failed to load Google Maps:', error);
+        document.getElementById('loading').innerHTML = 'Failed to load Google Maps. Please check your internet connection.';
+      });
+    });
+    
+    // This function will be called when Google Maps is ready
+    function startApp() {
+      console.log('Starting SafeWorld Crime Map application...');
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('map').style.display = 'block';
+      
+      // Initialize your map here
+      if (typeof initCrimeMap === 'function') {
+        initCrimeMap();
+      }
+    }
+  </script>
 </body>
 </html>
